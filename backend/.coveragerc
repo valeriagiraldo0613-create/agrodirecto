@@ -1,0 +1,14 @@
+[run]
+source = scr
+branch = True
+omit =
+    */__init__.py
+    */alembic/*
+    */migrations/*
+    */tests/*
+    */tests_tdd/*
+
+[report]
+show_missing = True
+skip_covered = False
+precision = 2

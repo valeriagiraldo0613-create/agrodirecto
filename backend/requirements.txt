@@ -9,3 +9,5 @@ python-jose[cryptography]==3.4.0
 alembic==1.15.2
 python-dotenv==1.1.0
 httpx==0.28.1
+email-validator
+pytest-cov

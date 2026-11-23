@@ -1,4 +1,4 @@
-# AgroMercado API
+  # AgroMercado API
 
 API REST para un mercado agrícola de pre-cosecha. Permite gestionar usuarios (productores y compradores), roles, tipos de documento, proveedores, categorías, lotes de producto, reservas, favoritos y tickets de soporte, además de consultar el historial de movimientos, compras y ventas. Incluye autenticación con correo/contraseña y token JWT.
 

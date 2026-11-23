@@ -8,7 +8,7 @@ def _database_url() -> str:
         # Solo para desarrollo local. En Render DATABASE_URL es obligatoria.
         if os.getenv("RENDER") or os.getenv("ENVIRONMENT") == "production":
             raise RuntimeError("Falta configurar la variable DATABASE_URL.")
-        url = "postgresql+psycopg2://postgres:1234@localhost/agro_mercado"
+        url = "postgresql+psycopg2://postgres:2008@localhost/agro_mercado"
 
     # Render puede entregar URLs con esquemas postgres:// o postgresql://.
     if url.startswith("postgres://"):
